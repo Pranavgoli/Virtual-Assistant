@@ -1,0 +1,4 @@
+Voice Assistant: Good Morning!
+Voice Assistant: Hello, I am your voice Assistant. How can I help you!
+You: open youtube
+Voice Assistant: Opening YouTube
