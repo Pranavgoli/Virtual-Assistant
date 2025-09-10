@@ -32,10 +32,12 @@ It can greet you, search Wikipedia, tell jokes, open websites, give the current 
 ## 🔧 Installation  
 
 1. Clone this repository:
+   
 git clone https://github.com/Pranavgoli/Virtual-Assistant.git
 cd voice-assistant
 
 2.Install dependencies:
+
   pip install pyttsx3 wikipedia pyjokes
   webbrowser and datetime are built-in Python modules.
 
