@@ -48,6 +48,7 @@ cd voice-assistant
 ## ▶️ Usage
 
 Run the assistant with:
+
                            cd Voice_Assistant
                            python Voice_Assistant.py
 
