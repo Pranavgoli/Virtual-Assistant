@@ -1,71 +1,106 @@
-# 🗣️ Python Voice Assistant  
+🤖 Voice Assistant with GUI
+A modern, feature-rich voice assistant with a sleek graphical user interface built using Python. This assistant can perform various tasks including web searches, opening websites, telling jokes, and providing time/date information, all while speaking responses aloud.
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)  
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange.svg)](https://github.com/yourusername/voice-assistant/pulls)  
+=========================================================================================================
 
-A simple and interactive **Voice Assistant** built with Python.  
-It can greet you, search Wikipedia, tell jokes, open websites, give the current time/date, and keep a history of your commands.  
+✨ Features
+🎯 Core Functionality
 
-----------------------------------------------------------------------
+Voice Output: Text-to-speech capabilities for all responses
+Wikipedia Integration: Quick Wikipedia searches and summaries
+Web Browser Control: Open popular websites with simple commands
+Google Search: Perform Google searches directly from the assistant
+Time & Date: Get current time and date information
+Jokes: Lighten the mood with programming and general jokes
+Command History: Track all your interactions with the assistant
 
-## ✨ Features  
+🎨 GUI Features
 
-- 🎙️ **Text-to-Speech (TTS)**: Speaks responses using `pyttsx3`.  
-- ⏰ **Smart Greeting**: Greets you with "Good Morning", "Good Afternoon", or "Good Evening" based on the current time.  
-- 🔎 **Wikipedia Search**: Fetches short summaries from Wikipedia.  
-- 🌐 **Web Navigation**: Opens popular websites (YouTube, Google, ChatGPT, Gmail, Steam, Epic Games) or performs a custom **Google Search**.  
-- 📅 **Time & Date**: Reads out the current time and today’s date.  
-- 😂 **Fun Jokes**: Tells random programming jokes with `pyjokes`.  
-- 📝 **History**: Saves all interactions in `history.txt`.  
-- ❌ **Exit Anytime**: Type "exit", "quit", or "stop" to close the assistant.  
+Modern Dark Theme: Eye-friendly dark interface
+Real-time Chat Display: Color-coded message history
+Quick Action Buttons: One-click access to common commands
+Responsive Design: Non-blocking UI with threaded operations
+Status Indicators: Visual feedback for assistant actions
 
-----------------------------------------------------------------------
-## 📂 Project Structure  
+=========================================================================================================
 
-  📁 VoiceAssistantProject
-├── Voice_Assistant.py # Main assistant script
-└── history.txt # Stores user and assistant interaction history
+🚀 Quick Start
+Prerequisites
+Ensure you have Python 3.7 or higher installed on your system.
 
-----------------------------------------------------------------------
+Installation
+Clone the repository:
 
-## 🔧 Installation  
+                    git clone https://github.com/yourusername/voice-assistant-gui.git
+                    cd voice-assistant-gui
 
-1. Clone this repository:
-   
-git clone https://github.com/Pranavgoli/Virtual-Assistant.git
+Install required dependencies:
 
-cd voice-assistant
+                    pip install -r requirements.txt
 
- 2.Install dependencies:
+Or install packages individually:
 
-  pip install pyttsx3 wikipedia pyjokes
-  
-  webbrowser and datetime are built-in Python modules.
+                    pip install pyttsx3 wikipedia pyjokes pillow
 
-----------------------------------------------------------------------
+Running the Application:
 
-## ▶️ Usage
+                    python Voice_Assistant.py
 
-Run the assistant with:
+📋 Requirements
+Create a requirements.txt file with:
 
-                           cd Voice_Assistant
-                           python Voice_Assistant.py
+                    pyttsx3>=2.90
+                    wikipedia-api>=0.5.4
+                    pyjokes>=0.6.0
+                    pillow>=9.0.0
 
-💬 Example session:
+Quick Action Buttons
+The GUI includes quick action buttons for frequently used commands:
 
-                          You (type your command): open youtube
-                          Voice Assistant: Opening YouTube
+🌐 Google
+📹 YouTube
+✉️ Gmail
+🤖 ChatGPT
+🎮 Epic Games
+🎮 Steam
+🕐 Time
+📅 Date
+😂 Joke
+📜 History
 
------------------------------------------------------------------------
-                      
-🌟 Future Improvements
+🏗️ Project Structure:
 
-  🎤 Add speech recognition for voice commands (speech_recognition library).
+                     voice-assistant-gui/
+                     │
+                     ├── voice_assistant_gui.py    # Main application file with GUI
+                     ├── history.txt               # Command history (auto-generated)
+                     ├── requirements.txt          # Python dependencies
+                     ├── README.md                # Project documentation
+                     └── LICENSE                  # License file
 
-  📖 Enhance Wikipedia search (more details, images, or links).
+🐛 Known Issues:
 
-  🔧 Support more websites and applications.
+TTS might not work on some Linux distributions without additional configuration
+Some websites may not open correctly if the URL protocol is missing
+Wikipedia searches may fail for ambiguous terms
 
-  🖥️ Create a GUI interface with Tkinter or PyQt.
+📈 Future Enhancements:
 
+🎤 Voice input recognition
+🔊 Volume control for TTS
+🌐 Multi-language support
+📱 Mobile app version
+☁️ Cloud sync for history
+🤖 AI-powered responses
+📊 Usage analytics dashboard
+
+🙏 Acknowledgments:
+
+pyttsx3 for text-to-speech functionality
+Wikipedia-API for Wikipedia integration
+pyjokes for the jokes database
+Tkinter for the GUI framework
+
+📝 License:
+
+This project is licensed under the MIT License - see the LICENSE file for details.
