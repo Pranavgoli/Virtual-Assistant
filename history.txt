@@ -2,3 +2,22 @@ Voice Assistant: Good Morning!
 Voice Assistant: Hello, I am your voice Assistant. How can I help you!
 You: open youtube
 Voice Assistant: Opening YouTube
+Voice Assistant: Good Morning!
+Voice Assistant: Hello, I am your voice Assistant. How can I help you!
+You: exit
+Voice Assistant: Goodbye! Have a great day.
+Voice Assistant: Good Morning!
+Voice Assistant: Hello, I am your voice Assistant. How can I help you!
+You: open google
+Voice Assistant: Opening Google
+Voice Assistant: Command history displayed
+Voice Assistant: Is reading in the bathroom considered Multi-Tasking.
+Voice Assistant: Today's date is September 16, 2025
+Voice Assistant: The current time is 08:33:45
+Voice Assistant: Opening Steam
+Voice Assistant: Opening YouTube
+Voice Assistant: Opening ChatGPT
+Voice Assistant: The current time is 08:34:13
+Voice Assistant: Today's date is September 16, 2025
+Voice Assistant: The computer is mightier than the pen, the sword, and usually, the programmer
+Voice Assistant: Opening Google
