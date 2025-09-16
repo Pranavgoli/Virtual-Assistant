@@ -1,9 +1,10 @@
 🤖 Voice Assistant with GUI
 A modern, feature-rich voice assistant with a sleek graphical user interface built using Python. This assistant can perform various tasks including web searches, opening websites, telling jokes, and providing time/date information, all while speaking responses aloud.
 
-=========================================================================================================
+============================================================
 
 ✨ Features
+
 🎯 Core Functionality
 
 Voice Output: Text-to-speech capabilities for all responses
@@ -22,13 +23,16 @@ Quick Action Buttons: One-click access to common commands
 Responsive Design: Non-blocking UI with threaded operations
 Status Indicators: Visual feedback for assistant actions
 
-=========================================================================================================
+============================================================
 
-🚀 Quick Start
+🚀 Quick Start:
+
 Prerequisites
+
 Ensure you have Python 3.7 or higher installed on your system.
 
 Installation
+
 Clone the repository:
 
                     git clone https://github.com/yourusername/voice-assistant-gui.git
@@ -46,7 +50,8 @@ Running the Application:
 
                     python Voice_Assistant.py
 
-📋 Requirements
+📋 Requirements:
+
 Create a requirements.txt file with:
 
                     pyttsx3>=2.90
@@ -54,18 +59,28 @@ Create a requirements.txt file with:
                     pyjokes>=0.6.0
                     pillow>=9.0.0
 
-Quick Action Buttons
+Quick Action Buttons:
+
 The GUI includes quick action buttons for frequently used commands:
 
 🌐 Google
+
 📹 YouTube
+
 ✉️ Gmail
+
 🤖 ChatGPT
+
 🎮 Epic Games
+
 🎮 Steam
+
 🕐 Time
+
 📅 Date
+
 😂 Joke
+
 📜 History
 
 🏗️ Project Structure:
